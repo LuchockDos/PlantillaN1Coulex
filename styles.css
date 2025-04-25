@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color:  rgb(150, 131, 131);
+}
+
+.container_header
+{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(243, 238, 238);
+}
+.container_navbar
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 75px;
+}
+#title
+{
+    padding-left: 10px ;
+}
+
+.ul_list
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;   
+}
+.li_list
+{
+
+}
+.dropdown
+{
+    padding-right: 10px;
+}
+
+.container_main
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    background-color: rgb(243, 238, 238);
+}
+.section_profile
+{
+    width: 90%;
+    height: auto;
+    padding: 40px;
+    display: grid;
+    place-items: center;
+}
+.article_info
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.info
+{
+    font-size: 30px;
+}
+.article_img
+{
+    
+}
+.container_img
+{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    display: grid;
+    place-items: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr) 350px;
+}
+#h_img
+{
+    align-self: end;
+}
+#person
+{
+    width: 100%;
+}
+.final_section
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+.habilities 
+{
+    display: grid;
+    place-items: center;
+    padding: 40px 0;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.habilities span
+{
+    font-size: 45px;    
+}
+.habilities hr
+{
+    grid-column: span 2;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+.article_cards
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+.container_cards
+{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 30px;
+}
+.cards
+{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    transition: .3s ease-in-out;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px 60px 30px;
+    background-color: rgb(236, 229, 229);
+}
+.cards:hover
+{
+    transform: translateY(-5px);
+}
+.container_footer
+{
+    height: 75px;
+    width: 100%;
+    line-height: 75px;
+    grid-gap: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 229, 229);
+}
+
+.logo_coulex
+{
+    text-decoration: none;
+    display: flex;
+    align-content: center center;
+    gap: 5px;
+}
+.coulex{
+    font-size: 20px;
+    font-weight: bold;
+}
+
