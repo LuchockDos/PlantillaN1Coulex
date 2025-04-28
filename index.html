@@ -5,24 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlantillaCoulex</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-
 </head>
 <body>
     <header class="container_header">
         <nav class="container_navbar">
           <h1 id="title">Titulo</h1>
+          <input type="checkbox" name="" id="check_label">
+          <label class="hamburger" for="check_label">
+            <span class="line"></span>
+            <span class="line"></span>
+          </label>
           <ul class="ul_list">
             <li class="li_list">
-              <a href="" class="link">Inicio</a>
+              <a href="#inicio" class="link">Inicio</a>
             </li>
             <li class="li_list">
-              <a href="" class="link">Sobre Nosotros</a>
+              <a href="#final_section" class="link">Capacidades</a>
+            </li>
+            <li class="li_list">
+              <a href="#servicios" class="link">Servicios</a>
+            </li>
+            <li class="li_list">
+              <a href="#clientes" class="link">Clientes</a>
             </li>
           </ul>         
     </header>
-    <main class="container_main">
+    <main id="inicio" class="container_main">
       <section class="section_profile">
         <article class="article_info">
             <p class="info">
@@ -39,7 +48,7 @@
           </div>
         </article>
       </section>
-      <section class="final_section">
+      <section id ="final_section"class="final_section">
         <div class="habilities">
           <span>Capacidades</span>  
           <hr>
@@ -64,63 +73,72 @@
           </div>
         </article>
       </section>
-      <section class="real_final_section">
+      <section id ="servicios"class="real_final_section">
         <div class="habilities">
           <hr>
-          <span>Personajes</span>  
+          <span>Servicios</span>  
         </div>
         <div class="container_real">
           <div class="text_img">
-            <img id="lol" src="https://imgs.search.brave.com/wiS8OakQMKDvIB8DXTOa9MoCGfJ4AuFPTr8RJO7ugEs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9sdnZ2LmNvbS9f/bmV4dC9pbWFnZT91/cmw9aHR0cHM6Ly9k/ZHJhZ29uLmxlYWd1/ZW9mbGVnZW5kcy5j/b20vY2RuL2ltZy9j/aGFtcGlvbi9zcGxh/c2gvTGVibGFuY18w/LmpwZyZ3PTEyMDAm/cT03NQ" alt="">
+            <img class="img_service" src="https://imgs.search.brave.com/1VcNpv8DR0bRUypuvN1-eQP_w3Xkhko_fO9CWIrdMTE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z29sdGRhLmNsL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIzLzA5/L0hlcnJhbWllbnRh/cy1kZS1hcG95bzIu/anBn" alt="">
             <div class="lol_text">
-              <h2><hr>LeBlanc</h2>
+              <h2><hr>Servicio 1</h2>
               <p>
-                No sé cómo explicarlo sin que suene exagerado, pero LeBlanc es, sin lugar a dudas, el amor de mi vida. Su presencia en la Grieta del Invocador es hipnótica: elegante, misteriosa, letal. Cada movimiento suyo es un suspiro que se escapa entre ilusiones, y cada palabra que lanza —a veces suave, a veces cruel— me atraviesa el alma como una daga de terciopelo.
-                No es solo su poder o su habilidad para engañar. Es la forma en que domina el espacio, como si el mundo fuera su escenario y yo apenas un espectador encantado. Me pierdo en sus sombras como quien se pierde felizmente en un sueño del que no quiere despertar.
-                Dicen que el amor verdadero es ese que te atrapa sin que te des cuenta… y así fue con LB. No importa cuántos campeones existan, cuántas skins nuevas saquen: para mí, siempre será ella. Una ilusión, tal vez. Pero la más perfecta de todas.</p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt blanditiis fuga deserunt molestiae incidunt eius ipsa
+                omnis autem voluptate sit officia saepe quam dolor enim, 
+                assumenda corporis quis. Cumque, reprehenderit aliquam porro 
+                numquam delectus et rem. Ipsum nemo, mollitia ut fugiat non 
+                excepturi aspernatur, hic sit harum distinctio est officia?
+              </p>
             </div>
             
           </div>
           <div class="text_img" id ="lol_text">        
             <div class="lol_text">
-              <h2><hr>Heimerdinger</h2>
+              <h2><hr>Servicio 2</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, reiciendis eius sunt a pariatur est repellendus perferendis reprehenderit molestias nesciunt voluptatem eveniet minus, adipisci dicta?</p>
             </div>
-            <img id="lol" src="https://imgs.search.brave.com/8j4HjZZdEQCJfkKUCGBOic8D789jJmR4-pGrUrRJzNA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9sdnZ2LmNvbS9f/bmV4dC9pbWFnZT91/cmw9aHR0cHM6Ly9k/ZHJhZ29uLmxlYWd1/ZW9mbGVnZW5kcy5j/b20vY2RuL2ltZy9j/aGFtcGlvbi9zcGxh/c2gvSGVpbWVyZGlu/Z2VyXzAuanBnJnc9/MTIwMCZxPTc1" alt="">
+            <img class="img_service" src="https://imgs.search.brave.com/cc53s3nYIk4MVkeQgVZqTzDtQYyxbfAa4daGEgbq4Y4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mY2Et/Y29uc3VsdGluZy5l/cy93cC1jb250ZW50/L3VwbG9hZHMvMjAx/Ni8wNS9lc3RyYXRl/Z2lhcy5qcGc" alt="">
           </div>
         </div>
       </section>
-
-      <section class="section_carousel">
-        <div class="container_carousel">
-          <div class="habilities">
-            <hr>
-            <span>Carousel</span>  
-          </div>
-          <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://c4.wallpaperflare.com/wallpaper/100/920/888/arboles-naturaleza-paisaje-rio-wallpaper-preview.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://c4.wallpaperflare.com/wallpaper/744/482/418/aerostaticos-globos-naturaleza-paisaje-wallpaper-preview.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://c4.wallpaperflare.com/wallpaper/393/561/183/flores-lago-naturaleza-paisaje-wallpaper-preview.jpg" class="d-block w-100" alt="...">
-              </div>
+      <section id = "clientes"class="section_clients">
+        <div class="habilities">
+          <span>Clientes</span> 
+          <hr>
+        </div>
+        <div class="container_clients">
+          <div class="cards_clients">
+            <img class="img_clients" src="https://imgs.search.brave.com/TTWjkCnrJRF1di-RfGC9khqVzZWZd4beDFojTfD9KPk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMy8w/Mi8xOC8xMS8wMC9p/Y29uLTc3OTc3MDRf/NjQwLnBuZw" alt="">
+            <div class="text_clients"> 
+              <h3>Cliente 1</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, sunt.</p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          </div>
+          <div class="cards_clients">
+            <img class="img_clients" src="https://imgs.search.brave.com/TTWjkCnrJRF1di-RfGC9khqVzZWZd4beDFojTfD9KPk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMy8w/Mi8xOC8xMS8wMC9p/Y29uLTc3OTc3MDRf/NjQwLnBuZw" alt="">
+            <div class="text_clients"> 
+              <h3>Cliente 2</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, sunt.</p>
+            </div>
+          </div>
+          <div class="cards_clients">
+            <img class="img_clients" src="https://imgs.search.brave.com/TTWjkCnrJRF1di-RfGC9khqVzZWZd4beDFojTfD9KPk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMy8w/Mi8xOC8xMS8wMC9p/Y29uLTc3OTc3MDRf/NjQwLnBuZw" alt="">
+            <div class="text_clients"> 
+              <h3>Cliente 3</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, sunt.</p>
+            </div>
+          </div>
+          <div class="cards_clients">
+            <img class="img_clients" src="https://imgs.search.brave.com/TTWjkCnrJRF1di-RfGC9khqVzZWZd4beDFojTfD9KPk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMy8w/Mi8xOC8xMS8wMC9p/Y29uLTc3OTc3MDRf/NjQwLnBuZw" alt="">
+            <div class="text_clients"> 
+              <h3>Cliente 4</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, sunt.</p>
+            </div>
           </div>
         </div>
       </section>
-      
     </main>
     <footer class="container_footer">
       <a class="logo_coulex" href="https://www.coulex.com/index.php" target="_blank">
@@ -130,6 +148,17 @@
       <p>
           © 2025 <span>COULEX</span>. Todos los derechos reservados.
       </p>
+      <div class="footer_icons">
+        <a href="#" target="_blank">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </div>
   </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
